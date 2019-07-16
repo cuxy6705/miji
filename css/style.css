@@ -6,7 +6,9 @@
   text-decoration: none;
 }
 
-ul, ol, li {
+ul,
+ol,
+li {
   list-style-type: none;
 }
 
@@ -16,9 +18,10 @@ ul, ol, li {
 }
 
 .logoimg {
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
   margin-left: 30px;
+  margin: 20px 0;
 }
 
 .logoimg img {
@@ -27,7 +30,7 @@ ul, ol, li {
 }
 
 .topheader {
-  background-color: #000;
+  background-color: #862929;
 }
 
 .header {
@@ -62,11 +65,27 @@ ul, ol, li {
 }
 
 .swiper-container {
-  height: 500px;
+  height: 600px;
 }
 
 .swiper-wrapper img {
   height: 100%;
   width: 100%;
+}
+
+.main > p {
+  font-size: 20px;
+  color: black;
+  letter-spacing: 2px;
+  margin: 20px 0 10px 0;
+  font-weight: bold;
+}
+
+.main > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 /*# sourceMappingURL=style.css.map */
